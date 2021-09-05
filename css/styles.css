@@ -47,7 +47,7 @@ h3 {
 
 .about-me {
   background-color: var(--main-color);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   color: var(--secondary-color);
   padding-bottom: 70px;
 }
@@ -62,7 +62,7 @@ h3 {
   font-weight: 600;
 }
 
-.languages-list a {
+.see-more-button {
   border: var(--main-button-border);
   padding: var(--button-padding);
   text-decoration: none;
@@ -70,4 +70,15 @@ h3 {
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
+}
+
+.project-img {
+  width: 400px;
+  height: 350px;
+}
+
+.contact-me {
+  background-color: var(--main-color);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  padding: 120px;
 }
