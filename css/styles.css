@@ -1,0 +1,38 @@
+:root {
+  --main-color: #769fcd;
+  --secondary-color: #f7fbfc;
+  --main-font-family: "Nunito", sans-serif;
+  --secondary-font-family: "Playfair Display", serif;
+}
+
+.homepage-hero {
+  background: var(--secondary-color);
+  font-family: var(--main-font-family);
+  padding: 120px 50px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.name {
+  color: var(--main-color);
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.homepage-hero a {
+  border: 5px solid var(--main-color);
+  padding: 12px 17px;
+  text-decoration: none;
+  color: var(--main-color);
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 800;
+}
