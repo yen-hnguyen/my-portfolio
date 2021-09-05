@@ -79,6 +79,26 @@ h3 {
 
 .contact-me {
   background-color: var(--main-color);
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
   padding: 120px;
+  color: var(--secondary-color);
+}
+
+.contact-me a {
+  border: var(--secondary-button-border);
+  padding: var(--button-padding);
+  text-decoration: none;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #272637;
+  padding: 30px;
+}
+
+.social-media i {
+  margin: 20px;
 }
