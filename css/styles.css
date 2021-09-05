@@ -3,6 +3,13 @@
   --secondary-color: #f7fbfc;
   --main-font-family: "Nunito", sans-serif;
   --secondary-font-family: "Playfair Display", serif;
+  --main-button-border: 5px solid var(--main-color);
+  --secondary-button-border: 5px solid var(--secondary-color);
+  --button-padding: 12px 17px;
+}
+
+body {
+  font-family: var(--main-font-family);
 }
 
 .homepage-hero {
@@ -29,8 +36,8 @@ h3 {
 }
 
 .homepage-hero a {
-  border: 5px solid var(--main-color);
-  padding: 12px 17px;
+  border: var(--main-button-border);
+  padding: var(--button-padding);
   text-decoration: none;
   color: var(--main-color);
   border-radius: 4px;
@@ -43,4 +50,24 @@ h3 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
   color: var(--secondary-color);
   padding-bottom: 70px;
+}
+
+.about-me a {
+  border: var(--secondary-button-border);
+  padding: var(--button-padding);
+  text-decoration: none;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.languages-list a {
+  border: var(--main-button-border);
+  padding: var(--button-padding);
+  text-decoration: none;
+  color: var(--main-color);
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
 }
