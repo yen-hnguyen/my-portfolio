@@ -9,6 +9,7 @@
   background: var(--secondary-color);
   font-family: var(--main-font-family);
   padding: 120px 50px;
+  text-align: center;
 }
 
 h1 {
@@ -35,4 +36,11 @@ h3 {
   border-radius: 4px;
   font-size: 20px;
   font-weight: 800;
+}
+
+.about-me {
+  background-color: var(--main-color);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+  color: var(--secondary-color);
+  padding-bottom: 70px;
 }
