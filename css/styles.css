@@ -62,6 +62,11 @@ h3 {
   font-weight: 600;
 }
 
+.languages-list img {
+  width: 70px;
+  margin: 20px;
+}
+
 .see-more-button {
   border: var(--main-button-border);
   padding: var(--button-padding);
