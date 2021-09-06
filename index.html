@@ -27,124 +27,130 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid ps-4 ps-4">
-        <a class="navbar-brand" href="/">YN</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-          </ul>
+    <div class="wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid ps-4 ps-4">
+          <a class="navbar-brand" href="/">YN</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="homepage-hero">
+        <h1>Hi, my name is <span class="name">Yen Nguyen</span></h1>
+        <h3 class="opacity-75">I'm a Full Stack Developer, based in Toronto</h3>
+        <a href="#footer">Contact me</a>
+      </div>
+      <div class="about-me">
+        <h1 class="text-center pt-4 pb-3">About Me</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 d-flex align-items-center pb-5">
+              <p class="about-me-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nibh mi. Sed
+                molestie sapien vel metus volutpat vestibulum. Morbi arcu metus, lobortis sed magna
+                quis, rhoncus dapibus justo.<br /><br />
+                <a href="/about.html">Learn more</a>
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+              <img
+                src="/images/my-photo.png"
+                alt="A picture of myself"
+                class="img-fluid rounded shadow-lg"
+                width="300px"
+                height="auto"
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="homepage-hero">
-      <h1>Hi, my name is <span class="name">Yen Nguyen</span></h1>
-      <h3 class="opacity-75">I'm a Full Stack Developer, based in Toronto</h3>
-      <a href="#">Contact me</a>
+      <section class="languages-and-projects text-center mb-5">
+        <div class="languages-list">
+          <h1 class="pt-4 pb-3">I've worked with</h1>
+          <div class="language-icons d-flex justify-content-center pb-5">
+            <img src="/icons/html-icon.png" />
+            <img src="/icons/css-icon.png" />
+            <img src="/icons/javascript-icon.png" />
+            <img src="/icons/python-icon.png" />
+          </div>
+        </div>
+        <div class="projects-list container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="/projects.html"
+                ><img
+                  src="/images/paws-in-need.png"
+                  alt="Paws In Need Project"
+                  class="img-fluid border p-2 shadow-lg rounded m-2"
+              /></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="/projects.html"
+                ><img
+                  src="/images/weather-app.png"
+                  alt="Weather App"
+                  class="img-fluid border p-2 shadow-lg rounded m-2"
+              /></a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <a href="/projects.html"
+                ><img
+                  src="/images/about-me-web.png"
+                  alt="About Me Wesbite"
+                  class="img-fluid border p-2 shadow-lg rounded m-2"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="m-5">
+          <a href="/projects.html" class="see-more-button">See More</a>
+        </div>
+      </section>
+      <section class="contact-me">
+        <div class="text-center">
+          <h1 class="mt-10">Get In Touch</h1>
+          <p class="mb-5 opacity-50">Have questions or want to work together</p>
+          <a href="mailto:yen.hnguyen17@gmail.com">Email Me</a>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="container text-center">
+          <div class="arrow-up">
+            <a href="#top"><i class="fas fa-caret-up fa-2x text-white"></i></a>
+          </div>
+          <div class="d-flex justify-content-center social-media">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+            <i class="fab fa-github fa-3x text-white"></i>
+            <i class="fab fa-instagram fa-3x text-white"></i>
+            <i class="fab fa-facebook fa-3x text-white"></i>
+          </div>
+        </div>
+      </footer>
     </div>
-    <div class="about-me">
-      <h1 class="text-center pt-4 pb-3">About Me</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12 d-flex align-items-center pb-5">
-            <p class="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nibh mi. Sed
-              molestie sapien vel metus volutpat vestibulum. Morbi arcu metus, lobortis sed magna
-              quis, rhoncus dapibus justo.<br /><br />
-              <a href="#">Learn more</a>
-            </p>
-          </div>
-          <div class="col-md-6 col-sm-12 d-flex justify-content-center">
-            <img
-              src="/images/my-photo.png"
-              class="img-fluid rounded shadow-lg"
-              width="300px"
-              height="auto"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="languages-and-projects text-center mb-5">
-      <div class="languages-list">
-        <h1 class="pt-4 pb-3">I've worked with</h1>
-        <div class="language-icons d-flex justify-content-center pb-5">
-          <img src="/icons/html-icon.png" />
-          <img src="/icons/css-icon.png" />
-          <img src="/icons/javascript-icon.png" />
-          <img src="/icons/python-icon.png" />
-        </div>
-      </div>
-      <div class="projects-list container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="/projects.html"
-              ><img
-                src="/images/Paws-In-Need.png"
-                class="project-img img-fluid border p-2 shadow-lg rounded m-3"
-            /></a>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="/projects.html"
-              ><img
-                src="/images/weather-app.png"
-                class="project-img img-fluid border p-2 shadow-lg rounded m-3"
-            /></a>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <a href="/projects.html"
-              ><img
-                src="/images/about-me-web.png"
-                class="project-img img-fluid border p-2 shadow-lg rounded m-3"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="m-5">
-        <a href="/projects.html" class="see-more-button">See More</a>
-      </div>
-    </section>
-    <section class="contact-me">
-      <div class="text-center">
-        <h1 class="mt-10">Get In Touch</h1>
-        <p class="mb-5 opacity-50">Have questions or want to work together</p>
-        <a href="mailto:yen.hnguyen17@gmail.com">Email Me</a>
-      </div>
-    </section>
-    <footer id="footer">
-      <div class="container text-center">
-        <div class="arrow-up">
-          <a href="#top"><i class="fas fa-caret-up fa-2x text-white"></i></a>
-        </div>
-        <div class="d-flex justify-content-center social-media">
-          <i class="fab fa-linkedin fa-3x text-white"></i>
-          <i class="fab fa-github fa-3x text-white"></i>
-          <i class="fab fa-instagram fa-3x text-white"></i>
-          <i class="fab fa-facebook fa-3x text-white"></i>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
