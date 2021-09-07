@@ -16,8 +16,23 @@ body {
   overflow-x: hidden;
 }
 
-.homepage-hero {
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+  border: 5px solid var(--main-color);
+  padding: 3px 10px;
+  border-radius: 4px;
   background: var(--secondary-color);
+}
+
+.navbar-nav .nav-item .active {
+  color: #769fcd;
+  font-weight: bold;
+}
+
+.homepage-hero {
   font-family: var(--main-font-family);
   padding: 120px 50px;
   text-align: center;
