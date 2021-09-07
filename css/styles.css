@@ -10,14 +10,11 @@
 
 body {
   font-family: var(--main-font-family);
+  background-color: var(--secondary-color);
 }
 
 .wrapper {
   overflow-x: hidden;
-}
-
-.navbar {
-  background-color: var(--secondary-color);
 }
 
 .navbar-brand {
@@ -135,7 +132,7 @@ footer {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .about-me-paragraph {
     text-align: center;
   }
