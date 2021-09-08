@@ -125,6 +125,16 @@ footer {
   margin: 20px;
 }
 
+.about-me-section p {
+  background-color: var(--main-color);
+  border-radius: 4px;
+  opacity: 75%;
+  color: var(--secondary-color);
+  font-weight: 600;
+  padding: 30px;
+  box-shadow: 5px 5px 15px 5px #272637;
+}
+
 @media (max-width: 768px) {
   .about-me,
   .contact-me {
