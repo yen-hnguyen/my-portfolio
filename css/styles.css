@@ -73,12 +73,6 @@ h3 {
   font-weight: bold;
 }
 
-#footer h2 {
-  color: var(--secondary-color);
-  padding-top: 20px;
-  font-weight: 700;
-}
-
 .blue-button {
   border: var(--main-button-border);
   padding: var(--button-padding);
@@ -134,18 +128,6 @@ h3 {
   color: var(--secondary-color);
 }
 
-.index-page footer {
-  background-color: #272637;
-  padding: 30px;
-}
-
-.about-me-page footer,
-.projects-page footer,
-.contact-page footer {
-  background-color: var(--main-color);
-  margin: 60px 0 0;
-}
-
 .social-media a {
   margin: 20px;
   transition: var(--button-transition);
@@ -183,7 +165,8 @@ h3 {
 
 .contact-form h1 {
   margin: 30px;
-  font-size: 45px;
+  padding-top: 20px;
+  font-size: 50px;
   color: var(--main-color);
 }
 
@@ -209,7 +192,7 @@ form {
   font-size: 17px;
   transition: var(--button-transition);
   padding: 17px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .contact-form-btn:hover {
@@ -222,11 +205,30 @@ form {
   transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-  .about-me-short,
-  .contact-me {
-    clip-path: none;
-  }
+.index-page footer {
+  background-color: #272637;
+  padding-top: 30px;
+}
+
+.about-me-page footer,
+.projects-page footer,
+.contact-page footer {
+  background-color: var(--main-color);
+  margin: 60px 0 0;
+}
+
+#footer h2 {
+  color: var(--secondary-color);
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+#footer p {
+  font-size: 15px;
+  opacity: 75%;
+  color: var(--secondary-color);
+  margin-bottom: 0;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -255,11 +257,18 @@ form {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .about-me-short,
+  .contact-me {
+    clip-path: none;
+  }
   .projects-page-header {
     font-size: 30px;
     font-weight: 600;
   }
   .projects-showcase img {
     display: none;
+  }
+  .social-media a {
+    margin: 5px;
   }
 }
