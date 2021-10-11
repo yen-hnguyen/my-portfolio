@@ -94,6 +94,10 @@ h3 {
   font-weight: 600;
 }
 
+a .blue-button:hover {
+  text-decoration: none;
+}
+
 .white-button {
   border: var(--secondary-button-border);
   padding: var(--button-padding);
@@ -103,6 +107,10 @@ h3 {
   line-height: 1.5;
   font-size: 15px;
   font-weight: 600;
+}
+
+a .white-button:hover {
+  text-decoration: none;
 }
 
 .contact-me {
@@ -125,8 +133,13 @@ h3 {
   margin: 60px 0 0;
 }
 
-.social-media i {
+.social-media a {
   margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media a:hover {
+  transform: scale(1.1);
 }
 
 .about-me-section p,
@@ -155,6 +168,12 @@ h3 {
   text-align: center;
 }
 
+.contact-form h1 {
+  margin: 30px;
+  font-size: 45px;
+  color: var(--main-color);
+}
+
 .contact-form,
 .container-contact-form-btn {
   display: block;
@@ -168,8 +187,26 @@ form {
   margin-right: auto;
 }
 
-.container-contact-form-btn {
-  border: 5px;
+.contact-form-btn {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  border-radius: 20px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  padding: 17px;
+  margin-top: 20px;
+}
+
+.contact-form-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.arrow-up:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
